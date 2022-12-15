@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <nav class="d-flex justify-content-between bg-dark text-white">
+        <div class="d-flex align-items-center">
+          <h4 class="ml-3 m-bt-0">Carousel</h4>
+          <a class="text-decoration-none ml-3 text-white" href="#">Home</a>
+          <a class="text-decoration-none ml-3 text-white-50" href="#">Link</a>
+          <a class="text-decoration-none ml-3 text-muted" href="#">Disabled</a>
+        </div>
+        <div class="d-flex my-2">
+          <input class="rounded" type="text " placeholder="Search" />
+          <button
+            class="ml-2 mr-3 border border-success rounded text-success bg-dark"
+          >
+            Search
+          </button>
+        </div>
+      </nav>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item bg-img1">
+            <div class="container">
+              <div class="carousel-caption text-left mb-5">
+                <h1 class="text-white">Example headline</h1>
+                <p class="text-white">
+                  Some representative placeholder content for the first slide of
+                  the carousel
+                </p>
+                <button class="btn bg-primary text-white rounded p-2">
+                  Sign up today
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- cai thu 2 -->
+          <div class="carousel-item bg-img2">
+            <div class="container">
+              <div class="carousel-caption text-left mb-5">
+                <h1 class="text-white">Example headline</h1>
+                <p class="text-white">
+                  Some representative placeholder content for the first slide of
+                  the carousel
+                </p>
+                <button class="btn bg-primary text-white rounded p-2">
+                  Sign up today
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- cai thu 2 -->
+
+          <!-- cai thu 3 -->
+          <div class="carousel-item active bg-img3">
+            <div class="container">
+              <div class="carousel-caption text-left mb-5">
+                <h1 class="text-white">Example headline</h1>
+                <p class="text-white">
+                  Some representative placeholder content for the first slide of
+                  the carousel
+                </p>
+                <button class="btn bg-primary text-white rounded p-2">
+                  Sign up today
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- cai thu 3 -->
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <footer class="mt-5 d-flex justify-content-between">
+      <div class="d-flex">
+        <p class="ml-5">2017-2021 Company, Inc</p>
+        <a class="ml-4" href="#">Privacy</a>
+        <a class="ml-4" href="#">Terms</a>
+      </div>
+      <a class="mr-5" href="#">Back to top</a>
+    </footer>
+  </body>
+</html>
